@@ -50,6 +50,9 @@ section {
     display: flex;
     align-items: center;
     background: url(imags/Background.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     /* background-color: #000; */
     background-size: cover;
     background-position: center;
