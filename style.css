@@ -50,9 +50,6 @@ section {
     display: flex;
     align-items: center;
     background: url(imags/Background.jpeg) no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
     /* background-color: #000; */
     background-size: cover;
     background-position: center;
@@ -317,9 +314,7 @@ section {
     .main-content h3{
         font-size: 1.4em;
     }
-    .main {
-        min-height: 75vh; 
-    }
+  
 }
 
 @media (max-width:300px){
@@ -327,7 +322,5 @@ section {
         font-size: 10px;
      
     }
-    .main {
-        min-height: 75vh;   
-    }
+  
 }
