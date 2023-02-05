@@ -317,11 +317,17 @@ section {
     .main-content h3{
         font-size: 1.4em;
     }
+    .main {
+        min-height: 75vh; 
+    }
 }
 
 @media (max-width:300px){
     body{
         font-size: 10px;
      
+    }
+    .main {
+        min-height: 75vh;   
     }
 }
